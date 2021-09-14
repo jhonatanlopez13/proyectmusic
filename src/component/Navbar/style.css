@@ -1,0 +1,18 @@
+.makeStyles-grow-1 {
+    flex-grow: 1;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    background: #9999;
+    /* position: fixed;
+    top: 100%; */
+}
+
+.galacticprimate{
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    text-align: initial;
+}
