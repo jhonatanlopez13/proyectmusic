@@ -6,6 +6,8 @@ import Bibliography from './component/Bibliography/Bibliography'
 import Galery from './component/Galery/Galery';
 
 function App() {
+
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -14,9 +16,14 @@ function App() {
           className="App-logo" 
           alt="logo" 
         />
-          <Navbar className={"navbar"}/>
+          <Navbar />
         <Bibliography/>
         <Galery/>
+        <img 
+          src={imgprimary} 
+          className="App-logo" 
+          alt="logo" 
+        />
       </header>
     </div>
   );
